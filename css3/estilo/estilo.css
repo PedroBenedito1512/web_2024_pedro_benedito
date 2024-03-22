@@ -1,0 +1,19 @@
+/* Estilo para os parágrafos */
+
+ h1,h3 {
+    color: rgb(250, 3, 56);
+
+}
+
+p {
+    text-decoration: underline; /* Sublinhar todo o texto dentro do parágrafo */
+    font-family: Arial, sans-serif; /* Usar a fonte Arial */
+
+}
+
+/* Estilo para os hiperlinks */
+a {
+    text-decoration: none; /* Remover sublinhado dos hiperlinks */
+    font-weight: bold; /* Aplicar negrito aos hiperlinks */
+    font-family: "Times New Roman", serif; /* Usar a fonte Times New Roman */
+}

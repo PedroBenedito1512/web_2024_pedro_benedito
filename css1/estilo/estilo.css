@@ -1,0 +1,31 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    color: rgb(40, 228, 15);
+}
+
+.background-image {
+    background-color: #000000;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../midia/imagem2.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    
+}
+h1 {
+    display: inline-block; /* Transforma o h1 em um bloco de nível de linha */
+    background-color: rgb(250, 3, 56); /* Define a cor de fundo como vermelho */
+    border: 2px solid rgb(40, 228, 15); /* Define uma borda sólida de 2 pixels de espessura e cor verde */
+    padding: 10px; /* Adiciona um espaçamento interno de 10 pixels */
+}
+
+
+
+
+
+
+
