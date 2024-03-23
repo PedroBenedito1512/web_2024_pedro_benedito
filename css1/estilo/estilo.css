@@ -1,9 +1,6 @@
 body {
     background-color: #000000;/* cor de tentatica para transição de fundo zuave*/
     color: rgb(40, 228, 15);/*cor da letra*/
-}
-
-.background-image {
     position: fixed;
     width: 100%;
     height: 100%;
@@ -11,8 +8,8 @@ body {
     background-size: cover;
     background-position: center;
     z-index: -1;/* coloquei pq sem isso a imagem sobreóe texto */
-    
 }
+
 h1 {
     /* display: inline-block; limita o bloco de h1 para tamanho da linha 
     escrita  tirei porque não sabia se podia usar*/

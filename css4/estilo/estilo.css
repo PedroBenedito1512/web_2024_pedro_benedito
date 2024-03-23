@@ -31,6 +31,10 @@ body {
   color: white;
   font-weight: bold;
 }
+/* (nota de esclarecimento) inicialmente fiz o div bem vind que servia pro rodape e nome daloja
+porém percebi que existia uma tag footer então fique em duvida de se 
+o senhor queria literalmente o uso da tag footer ou não, então usei 
+a footer para o roda pé e mantive a antiga div pro bem vindo */
 
 footer {
   text-align: center;
