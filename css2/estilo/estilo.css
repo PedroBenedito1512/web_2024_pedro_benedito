@@ -14,4 +14,13 @@ body{
     padding: 25px;
     margin: 0 auto; /* Centraliza o div horizontalmente */
 }
-
+/* pergunta teorica 1:
+Quando você define margin: 0 auto; para centralizar horizontalmente os DIVs,
+isso centraliza o próprio DIV em relação à página, mas não considera o espaço extra adicionado 
+pelo padding. Portanto, embora os DIVs estejam centralizados em relação à página,
+ o espaço interno adicionado pelo padding faz com que pareçam desalinhados entre si.
+pergunta teorica 2:
+Os dois DIVs não estão completamente alinhados porque o segundo DIV (div2) tem um padding de 25px
+definido em seu estilo CSS, enquanto o primeiro DIV (div1) não tem padding.
+O padding adiciona espaço interno ao elemento, o que faz com que o conteúdo dentro do DIV 
+seja afastado das bordas do elemento. */
