@@ -1,6 +1,7 @@
-body{
+body {
   background-color: rgb(0, 0, 0);
 }
+
 .backgrounds {
   display: flex;
   justify-content: space-around;
@@ -8,26 +9,35 @@ body{
 }
 
 .tennis {
-  width: calc(20% - 20px); /* Definindo a largura com espaço entre eles não queria tudo junto */
+  width: calc(20% - 20px);
   background-color: green;
   margin: 10px;
   text-align: center;
   border-radius: 10px;
-  overflow: hidden; /* Para garantir que a imagem não ultrapasse a área verde, achei complicado
-                    ajustar de uma em uma então procurei por essa função*/
+  overflow: hidden;
 }
 
 .tennis img {
   width: 100%;
-  height: 200px; /* Definindo uma altura fixa para todas as imagens */
-  object-fit: cover; /* Para garantir que a imagem preencha completamente a área */
+  height: 200px;
+  object-fit: cover;
 }
 
-.nomeDaLoja {
+.bemVindo {
   background-color: gray;
   text-align: center;
   padding: 20px 0;
-  margin-top: 20px; /* Adicionando um espaço entre o contêiner de produtos e o nome da loja */
-  color: white; /* Cor do texto */
-  font-weight: bold; /* Fonte em negrito */
+  margin-top: 20px;
+  color: white;
+  font-weight: bold;
 }
+
+footer {
+  text-align: center;
+  margin-top: 50px; /* Espaço entre o conteúdo principal e o rodapé */
+  background-color: gray;
+  padding: 20px 0;
+  color: white;
+  font-weight: bold;
+}
+
