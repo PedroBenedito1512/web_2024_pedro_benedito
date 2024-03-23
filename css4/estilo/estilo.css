@@ -7,7 +7,7 @@ body{
   flex-wrap: wrap;
 }
 
-.tenis {
+.tennis {
   width: calc(20% - 20px); /* Definindo a largura com espaço entre eles não queria tudo junto */
   background-color: green;
   margin: 10px;
@@ -17,7 +17,7 @@ body{
                     ajustar de uma em uma então procurei por essa função*/
 }
 
-.tenis img {
+.tennis img {
   width: 100%;
   height: 200px; /* Definindo uma altura fixa para todas as imagens */
   object-fit: cover; /* Para garantir que a imagem preencha completamente a área */
@@ -27,7 +27,7 @@ body{
   background-color: gray;
   text-align: center;
   padding: 20px 0;
-  margin-top: 20px; /* Adicionando um espaço entre o backgorunds green de produtos e o nome da loja */
+  margin-top: 20px; /* Adicionando um espaço entre o contêiner de produtos e o nome da loja */
   color: white; /* Cor do texto */
   font-weight: bold; /* Fonte em negrito */
 }
