@@ -1,7 +1,10 @@
 /* Estilo para os parágrafos */
-
+body{
+    background-color: black;/*cor de fundo preta para ficar  outros*/
+    color: blanchedalmond; /* cor das letras do paragrafo*/
+}
  h1,h3 {
-    color: rgb(250, 3, 56);
+    color: rgb(250, 3, 56);/*cor para topicos e subtopicos*/
 
 }
 
@@ -13,7 +16,7 @@ p {
 
 /* Estilo para os hiperlinks */
 a {
-    text-decoration: none; /* Remover sublinhado dos hiperlinks */
+    text-decoration: none; /*tirando sublinhado*/
     font-weight: bold; /* Aplicar negrito aos hiperlinks */
-    font-family: "Times New Roman", serif; /* Usar a fonte Times New Roman */
+    font-family: "Times New Roman", serif; /* Usar a fonte*/
 }

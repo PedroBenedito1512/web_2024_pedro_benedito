@@ -1,0 +1,20 @@
+body{
+    color: blanchedalmond;
+    background-color: black;
+
+}
+h1{
+    background-color: gray;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px; /* Adicionando um espaço entre o backgorunds green de produtos e o nome da loja */
+    color: white; /* Cor do texto */
+    font-weight: bold; /* Fonte em negrito */
+}
+a {
+
+    color:  rgb(250, 3, 56);
+    text-decoration: none; /*tirando sublinhado*/
+    font-weight: bold; /* Aplicar negrito aos hiperlinks */
+    font-family: "Times New Roman", serif; /* Usar a fonte*/
+}
