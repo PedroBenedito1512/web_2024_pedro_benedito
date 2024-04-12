@@ -3,22 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atividade js</title>
+    <title>Atividade JS</title>
     <link rel="stylesheet" href="estilo/estilo.css">
 </head>
 <body>
-    <h1>Estrutura de Dados</h1>
+    <h1>FiFO</h1>
     <br>
+    <div class="janela"> <!-- Fechar esta tag -->
+        <h3 class="card-title">Adicione valores à fila</h3> <!-- Fechar esta tag -->
         <div id="insercao">
-        <label for="valor">Valor:</label>
-        <input type="text" id="valor" name="valor">
-        <button onclick="adicionar()">Adicionar</button>
-    </div>
-    <br>
-    <div id="exibicao"></div>
-    <br>
-    <button onclick="remover()">Remover</button>
-    <button onclick="reiniciar()">Reiniciar</button>
-    <script src="script/script.js"></script>
+            <label for="valor">Valor:</label>
+            <input type="text" id="valor" name="valor">
+            <label for="color">Cor:</label>
+            <input type="color" id="colorPicker">
+            <button id="adicionar">Adicionar</button>
+        </div>    
+         <br>
+        <div id="exibicao"></div>
+        <br>
+        <button id="remover">Remover</button>
+        <button id="reiniciar">Reiniciar</button>
+        <script src="script/script.js"></script>
+    </div>    
 </body>
 </html>
