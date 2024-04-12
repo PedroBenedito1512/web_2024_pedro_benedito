@@ -10,6 +10,16 @@ body {
     z-index: -1;
 }
 
+h1{
+    background-color: rgba(161, 157, 157, 0.3);
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px; /* Adicionando um espaço entre o backgorunds green de produtos e o nome da loja */
+    color:rgb(255, 23, 23); /* Cor do texto */
+    font-weight: bold; /* Fonte em negrito */
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
 /* Estilo para a janela */
 .janela {
     width: 400px;
@@ -17,8 +27,9 @@ body {
     padding: 2rem;
     border-radius: 1rem;
     background: rgba(161, 157, 157, 0.3);
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    margin: 0 auto;
 }
 
 /* Estilo para o título do cartão */
